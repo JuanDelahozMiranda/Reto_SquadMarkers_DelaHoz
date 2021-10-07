@@ -8,10 +8,15 @@ QA_Web_Testing_Python
 ## STEPS - API
 1. Clone the repository
 2. Check the dependencies
+
     2.1 - pip install selenium
+ 
     2.2 - pip install unittest2
+    
     2.3 - pip install behave
+    
     2.4 - pip install allure-behave
+
 3. Verify your version chromedriver an located in [resources/drivers]
 4. Check the scenarios [resources/testWeb.feature]
 5. Execution -> navigate into resource folder and used: behave testWeb.feature
